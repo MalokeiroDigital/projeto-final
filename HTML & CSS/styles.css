@@ -1,0 +1,32 @@
+:root {
+    --base: #182a3a;
+    --highlight_1: #7ed957;
+    --highlight_2: #f3d653;
+    --light_el: #f2fcff;
+    --dark_el: #000000;
+}
+
+body {
+    background: var(--base);
+}
+
+header img {
+    width: 20%;
+}
+
+.horizontal {
+    display: flex;
+    justify-content: center;
+    background-color: var(--highlight_1);
+    color: var(--base);
+}
+
+.horizontal h3{
+    font-size: 1em;
+    font-weight: 800;
+}
+
+.horizontal button {
+    width: 45px;
+    height: 35px;
+}
